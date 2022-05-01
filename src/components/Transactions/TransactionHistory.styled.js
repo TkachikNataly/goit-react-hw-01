@@ -3,18 +3,19 @@ import styled from "@emotion/styled";
 export const TransactionsTable = styled.table`
   margin: 20px auto;
   text-align: center;
-  color: #606160;
+  color: #000000;
+  background-color: #00ffff;
   border-radius: 8px;
 `;
 
 export const TableHeader = styled.thead`
-  background-color: #6bc7c2;
+  background-color: #3498DB;
   text-transform: uppercase;
-  color: #ffffff;
+  color: #000000;
 `;
 
 export const TableBody = styled.tbody`
->:nth-child(2n) {
+{
   background-color: #00ffff;
 }
 `;

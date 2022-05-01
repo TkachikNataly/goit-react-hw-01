@@ -48,11 +48,5 @@ export const StatsItem = styled.li`
   width: calc(100% / 3);
   padding: 16px;
   border: 1px solid #dcdfe3;
-  ${'' /* >:first-child {
-    color:#757575;
-  };
-  >:last-child{
-    margin-top: 12px;
-    font-weight: 700; */}
   };
 `;

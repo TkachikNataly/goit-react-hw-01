@@ -1,9 +1,11 @@
 import styled from "@emotion/styled";
 
 export const OurFriends = styled.ul`
-  width: 400px;
-  margin: 40px;
-  >:nth-child(n+2){
-    margin-top: 20px;
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding-left: 0;
   }
 `;

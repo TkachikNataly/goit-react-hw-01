@@ -1,13 +1,18 @@
 import styled from "@emotion/styled";
 
 export const Friend = styled.li`
-  display: flex;
+   display: flex;
   align-items: center;
-  flex-direction: column;
-  justify-content: center;
-  background-color: #CCCCFF;
-  padding: 15px;
-  border-radius: 5px;
+  justify-content: flex-start;
+  width: 300px;
+  height: auto;
+  margin: 10px 0;
+  padding: 10px 0;
+  background-color: #fff;
+  /* box-sizing: content-box; */
+  border: 2px solid rgba(131, 137, 150, 0.9);
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+  border-radius: 3px;
 `;
 
 export const IsOnline = styled.span`
