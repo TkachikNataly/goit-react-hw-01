@@ -4,7 +4,6 @@ export const TransactionsTable = styled.table`
   margin: 20px auto;
   text-align: center;
   color: #000000;
-  background-color: #00ffff;
   border-radius: 8px;
 `;
 
@@ -15,7 +14,7 @@ export const TableHeader = styled.thead`
 `;
 
 export const TableBody = styled.tbody`
-{
+>:nth-child(2n) {
   background-color: #00ffff;
 }
 `;
